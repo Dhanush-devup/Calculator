@@ -1,0 +1,56 @@
+body {
+    height: 100vh;
+    display: flex;
+    /* justify-self: center; */
+    flex-direction: column;
+    align-items: center;
+}
+
+.c_body{
+    height: 50vmin;
+    width: 30vmin;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.display{
+    height: 20%;
+    width: 100%;
+    border: 2px solid hsl(0 0% 0%);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding :10px;
+
+}
+.row {
+    height: 16%;
+    width: 100%;
+    /* border: 1px solid green; */
+    display: flex;
+    padding :5px;
+    justify-content: center;
+    align-items: center;
+    gap :10px;
+}
+
+.button {
+    height: 100%;
+    flex : 1 1 25%;
+    border-radius: 10px;
+    font-size: 1.7cqw;
+}
+.num{
+    background-color: hsl(0 0% 80.2%);
+}
+
+.operation {
+    background-color: hsl(182 31.6% 57.2%);
+}
